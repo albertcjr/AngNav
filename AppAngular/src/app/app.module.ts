@@ -11,6 +11,8 @@ import { WorksComponent } from './components/works/works.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 
+import { UserdataService } from './providers/userdata.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,10 +27,12 @@ import { ServicesComponent } from './components/services/services.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path:'News',component: NewsComponent}
+      {path:'News',component: NewsComponent},
+      {path:'about',component: AboutComponent},
+      {path:'services',component: ServicesComponent}
     ])
   ],
-  providers: [],
+  providers: [UserdataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
