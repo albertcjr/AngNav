@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 
 import { UserdataService } from './providers/userdata.service';
+import { MaintenanceComponent } from './components/maintenance/maintenance.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UserdataService } from './providers/userdata.service';
     PartsComponent,
     WorksComponent,
     AboutComponent,
-    ServicesComponent
+    ServicesComponent,
+    MaintenanceComponent
   ],
   imports: [
     BrowserModule,
