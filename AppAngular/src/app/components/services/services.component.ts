@@ -9,6 +9,11 @@ export class ServicesComponent implements OnInit {
 
   constructor() { }
 
+  onClick(): void {
+    console.log("test");
+
+  }
+    
   ngOnInit() {
   }
 
