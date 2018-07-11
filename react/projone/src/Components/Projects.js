@@ -16,7 +16,7 @@ class Projects extends Component {
       ); 
     }
 
-    console.log(this.props)
+    console.log(React.version)
     return (
       <div className="Projects">
         {projectItems}
