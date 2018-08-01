@@ -9475,3 +9475,18 @@
  .pagination a:hover {
    text-decoration: none;
  }
+
+ input.form-fixer {
+  padding: 1px;
+  font-size: 14px;
+}
+.form-group {
+  margin-bottom: 1px;
+}
+.form-horizontal .form-group input, 
+.form-horizontal .form-group select,
+.form-horizontal .form-group label
+{ 
+  height: 2px;
+  line-height: 16px;
+}
